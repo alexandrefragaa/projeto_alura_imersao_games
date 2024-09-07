@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    font-family: "Orbitron", sans-serif;
+    /* Define a fonte padrão */
+    background-image: linear-gradient(to right, #347199, #32bbec, #07e7f7);
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    height: 100vh;
+    /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem;
+    /* Tamanho da fonte */
+    color: #eee9e9;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem;
+    /* Espaçamento entre letras */
+}
+
+.plataformas {
+    color: red;
+    text-shadow: 2px 2px 4px white;
+}
+
+.trailers {
+    color:blue;
+    text-shadow: 2px 2px 4px #000305;
+}
+
+.plataforma { 
+    color: white;
+
+}
+
+.lancamentos-link {
+    color: red
+}
+
+.trailers-link {
+    color: blue;
+}
+.titulo-empresa {
+    text-align: center;
+}
+/* Estiliza as seções da página */
+section {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo de cada seção */
+
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem;
+    /* Largura dos inputs */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos inputs */
+    color: #45474B;
+    /* Cor do texto */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background-color: #30475E;
+    /* Cor de fundo do botão */
+    color: #080808;
+    /* Cor do texto do botão */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    position: relative;
+    z-index: 1;
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem;
+    /* Largura máxima da caixa de resultados */
+    height: 46vh;
+    /* Altura máxima da caixa de resultados */
+    overflow-y: auto;
+    /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem;
+    /* Espaçamento acima da caixa de resultados */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+}
+
+.resultados-trailer {
+    width: 60rem;
+    /* Largura máxima da caixa de resultados */
+    height: 46vh;
+    /* Altura máxima da caixa de resultados */
+    overflow-y: auto;
+    /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem;
+    /* Espaçamento acima da caixa de resultados */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #9b9b9b1b;
+    /* Cor de fundo dos itens */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+    padding: 1rem;
+    /* Espaçamento interno */
+    margin-bottom: 2rem;
+    /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+}
+
+.item-resultado img {
+    max-width: 50%;
+    /* Define o tamanho máximo da imagem */
+    max-height: 50%;
+    margin-right: 10px;
+    /* Mantém o espaçamento entre a imagem e o texto */
+}
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 18px;
+    /* Tamanho da fonte */
+    color: #222831;
+    /* Cor do texto */
+
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none;
+    /* Remove o sublinhado padrão dos links */
+    color: #30475E;
+    /* Cor do texto dos links */
+    text-align: center;
+}
+
+.item-resultado p {
+    align-items: center;
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+.item-resultado:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.descricao-meta {
+    color: #45474B;
+    /* Cor do texto */
+    margin: 0.5rem 0;
+    /* Margem acima e abaixo */
+    align-items: center;
+}
+
+.saiba-mais {
+    padding-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.descricao-inicio {
+    padding-top: 50px;
+    padding-right: 22rem;
+    padding-left: 22rem;
+    text-align: center;
+    align-items: center;
+}
+
+.lanca-games {
+    text-align: center;
+}
+
+.enviar-email {
+    text-align: center;
+
+}
+
+
+/* Estiliza o rodapé da página */
+footer {
+    background-image: linear-gradient(to right, #3785d8, #87d3ff, #08d3dd);
+    color: #45474B;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+    color: #45474B;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 0;
+    /* Espaçamento interno */
+    width: 100%;
+    /* Largura total da página */
+    position: absolute;
+    /* Posiciona o rodapé */
+    bottom: 0;
+    /* Alinha ao fundo da página */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+}
+
+nav {
+    background-color: linear-gradient(to right, #08d3dd, #87d3ff, #3785d8);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000505;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.comentarios {
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.comentarios .acoes {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+
+.acoes button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}

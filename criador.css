@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right, #f4f5f5, #7c7c7d);
+}
+
+nav {
+    background: linear-gradient(to right, #f4f5f5, #7c7c7d);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000505;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.sobre-mim {
+    text-align: center;
+    padding: 50px;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.eu {
+    /* Estilizando o título "Quem sou eu?" */
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Ajustando o tamanho do texto */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.botao-linkedin,
+.botao-github {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer {
+    background: linear-gradient(to right, #f4f5f5, #7c7c7d);
+    color: #070707;
+    text-align: center;
+    padding: 20px;
+}

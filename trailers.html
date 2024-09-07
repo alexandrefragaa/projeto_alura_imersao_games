@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LançaGames</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lancamentos.html">Plataformas</a></li>
+            <li><a href="trailers.html">Trailers</a></li>
+            <li><a href="criador.html">Criador</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="trailers" id="trailers">Trailers</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome da sua plataforma" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-trailer" id="resultados-trailer">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - LançaGames. Todos os direitos reservados ©</p>
+    </footer>
+    <script src="dados2.js"></script>
+    <script src="app2.js"></script>
+</body>
+
+</html>
