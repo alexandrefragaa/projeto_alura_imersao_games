@@ -1,11 +1,12 @@
 Projeto: Site de Lançamentos de Jogos
 
-![image](https://github.com/user-attachments/assets/e54d3ae0-f9e3-459f-8e47-6335c72c74a4)
+![image](https://github.com/user-attachments/assets/43bbdaf6-e06b-40f3-8340-d147c295a4b3)
 
 
 
 Descrição
 Este projeto é um site dedicado a mostrar os lançamentos de jogos mais recentes. O site é dividido em três partes principais.
+
 
 Funcionalidades:
 
@@ -23,7 +24,17 @@ Detalhes: Cada jogo listado inclui informações como título, data de lançamen
 Funcionalidade de Pesquisa: Os usuários podem pesquisar jogos específicos e obter informações detalhadas sobre eles.
 
 
-![image](https://github.com/user-attachments/assets/46774cca-ad31-4c64-9a75-09a3ebb8b510)
+![image](https://github.com/user-attachments/assets/1a367bf3-c4a6-43e2-a315-2bd965adb81e)
+
+
+
+
+OBS: Digite o nome de um jogo na barra de pesquisa para você buscar os lançamentos 
+
+
+
+![image](https://github.com/user-attachments/assets/eb5d0ad0-8598-4023-aa3a-93b490e87a96)
+
 
 
 
@@ -32,9 +43,14 @@ Descrição: Permite que os usuários assistam aos trailers dos jogos.
 Funcionalidade de Pesquisa: Quando um jogo é pesquisado, o site exibe o trailer correspondente.
 Botão “Sim”: Ao clicar no botão “Sim”, os usuários são redirecionados diretamente para a seção de trailers do jogo pesquisado.
 
+![image](https://github.com/user-attachments/assets/84ed5e6c-47f9-4f1d-b20c-87baf0b05c81)
 
-![image](https://github.com/user-attachments/assets/3a18f9d4-d01c-4e18-9868-9495e27bafe3)
 
+
+OBS: Digite o nome do proximo jogo do mês de outubro que irá lançar para assistir ao trailer.
+
+
+![image](https://github.com/user-attachments/assets/93f01575-6d07-421a-8e7d-3c5b282b9d77)
 
 
 Tecnologias Utilizadas
